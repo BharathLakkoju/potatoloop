@@ -1,0 +1,17 @@
+/* src/App.css */
+
+@keyframes fall {
+  0% {
+    transform: rotate(0);
+    transform: translateY(0);
+  }
+  100% {
+    transform: rotate(10turn);
+    transform: translateY(calc(100dvh - 42px));
+  }
+}
+
+.potato {
+  position: absolute;
+  animation: fall 3s linear forwards;
+}
